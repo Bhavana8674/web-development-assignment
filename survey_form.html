@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="Style.css">
+  <head>
+    <title>SURVEY FORM</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">POPULATION CENSUS</h1>
+      <p id="description">The main purpose of this form is to findout about information of an individual.</p>
+    </header>
+    <main>
+       <form id="survey-form">
+ <hr>
+         <label for="name" id="name-label">Enter your full name:</label>
+         <input id="name" type="text" required placeholder="name">
+          <hr>
+         <label for="email" id="email-label">Enter your email:</label>
+         <input id="email" type="email" required placeholder="email">
+<hr>
+          <label for="phnumber">Enter your mobile number:</label>
+          <input id="phnumber" type="number" placeholder="number" required >
+<hr>
+          <label for="number" id="number-label">Your Age:</label>
+          <input id="number" type="number" min="0" max="100"  placeholder="number" required>
+ <hr>
+          <label for="dropbox">Gender</label>
+          <select id="dropdown">
+            <option>Female</option>
+            <option>Male</option>
+            <option>Neutral</option>
+          </select>
+ <hr>
+         <label for="name" id="name-label">Enter your Date of birth:</label>
+         <input id="name" type="text" required placeholder="d/m/y">
+<hr>        
+          <label for="number" id="number-label">How many people are living in your house:</label>
+          <input id="number" type="number"  placeholder="number" required>
+<hr>
+         <label for="name" id="name-label">Father name:</label>
+         <input id="name" type="text" required placeholder="name">
+<hr>
+         <label for="name" id="name-label">Mother name:</label>
+         <input id="name" type="text" required placeholder="name">
+<hr>
+         <label>Do you have any siblings?</label>
+         <input type="checkbox" value="0" id="Yes">
+         <label for="Yes">Yes</label>
+         <input type="checkbox" value="1" id="No">
+         <label for="No">NO</label>
+ 
+<hr>
+          <label>Is your house own?</label>
+          <input type="radio" name="radio-group" id="edge" value="0">
+          <label for="Yes">Yes</label>
+          <input type="radio" name="radio-group" id="edge" value="1">
+          <label for="NO">NO</label>
+<hr>
+          <label for="name" id="name-label">Present Address:</label>
+          <input id="name" type="text" required >
+<hr>
+        
+          <textarea> Write here if you have Any comments or Queries?
+          </textarea>
+ <hr>
+      <p id="description">Thank you for filling out this form.</p>
+    
+          <input id="submit" type="submit">
+  
+        </form>
+      </main>
+  </body>
+  </html> 

@@ -1,0 +1,50 @@
+body{
+    background:url(https://www.nationsonline.org/gallery/World/population.jpg);
+  
+    
+    text-align:center;
+  }
+  form{
+     max-width:500 px;
+     text-align:left;
+     height: 1000 px;
+     background-color: linear-gradient(180deg,  rgb(76, 7, 76), rgb(231, 228, 228));
+     color: black;
+      font-size: larger;
+      display: flex;
+      flex-direction: column;
+      padding:20px;
+     border:2px rgb(238, 16, 238);
+     border-radius:10px;
+    box-shadow: 5px 5px 5px 5px lavender;
+    -webkit-box-shadow:10px 10px 10px 10px lavender;
+   -moz-box-shadow:10px 10px 10px 20px pink;
+    margin:5 px;
+    padding-left: 15px;
+    padding-top: 20px;
+   }
+
+
+  main{
+      display:flex;
+      justify-content: center;
+  }
+.input-element{
+          display:flex;
+          flex-direction:column;
+          margin: 10px;
+          width: 450px;
+          height: 20px;
+   }
+  select{
+    padding:5px;
+    border:none;
+    border-radius:5px;
+  }
+  input[type="checkbox"]{
+    width:15px;
+    height:15px;
+  } input[type="radio"]{
+    width:15px;
+    height:15px;
+  }
