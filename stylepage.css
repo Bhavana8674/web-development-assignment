@@ -1,0 +1,41 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+#main{
+    background-color: grey;
+    border-radius: 15px;
+    margin:auto;
+    padding: 15px;
+}
+#title{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+#img-div{
+    background-color:white;
+    padding: 20px;
+}
+img{
+     margin:auto;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+#img-caption{
+    text-align: center;
+    font-size: 15px;
+    font-family: monospace;
+} 
+#tribute-info > h2 {
+    text-align: center;
+  }
+
+#tribute-info > ul li {
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+  
